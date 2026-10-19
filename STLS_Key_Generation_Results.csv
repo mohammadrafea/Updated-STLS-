@@ -1,0 +1,8 @@
+device_id,repeat,keygen_raw_folder,approach,duration_s,operation,attempts,completed_key_generation_operations,failed_operations,deadline_censored_operations,generated_key_pairs,generated_symmetric_keys,generated_sids,key_generation_operations_per_minute,key_pairs_per_minute,symmetric_keys_per_minute,cpu_including_overrun_s,final_operation_overrun_s,batch_size
+host,1,keygen_raw/0001_quic_tls_ecdhe_secp256r1_r01,quic_tls_ecdhe_secp256r1,60.0,ECDHE_secp256r1_key_pair,4272641,4272641,0,0,4272641,0,0,4272641.0,4272641.0,0,59.995707151,3.0588999834435526e-05,1000
+host,1,keygen_raw/0002_quic_tls_rsa2048_r01,quic_tls_rsa2048,60.0,RSA2048_key_pair,1285,1284,0,1,1284,0,0,1284.0,1284.0,0,60.059389231,0.06347033500014732,1000
+host,1,keygen_raw/0003_quic_tls_ecdhe_secp384r1_r01,quic_tls_ecdhe_secp384r1,60.0,ECDHE_secp384r1_key_pair,365672,365671,0,1,365671,0,0,365671.0,365671.0,0,59.99614326,0.00018831299985322403,1000
+host,1,keygen_raw/0004_quic_stls_r01,quic_stls,60.0,two_AES256_keys_plus_SID,32109625,32109624,0,1,0,64219248,32109624,32109624.0,0,64219248.0,59.995183143,3.350399992996245e-05,1000
+host,1,keygen_raw/0005_quic_tls_rsa3072_r01,quic_tls_rsa3072,60.0,RSA3072_key_pair,370,369,0,1,369,0,0,369.0,369.0,0,60.139865665,0.1457163169998239,1000
+host,1,keygen_raw/0006_quic_tls_rsa4096_r01,quic_tls_rsa4096,60.0,RSA4096_key_pair,133,132,0,1,132,0,0,132.0,132.0,0,60.000429114,0.0032328639999832376,1000
+host,1,keygen_raw/0007_quic_tls_ecdhe_secp521r1_r01,quic_tls_ecdhe_secp521r1,60.0,ECDHE_secp521r1_key_pair,408592,408591,0,1,408591,0,0,408591.0,408591.0,0,59.996389957999995,0.00015932399946905207,1000
